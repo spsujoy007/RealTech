@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .carouselimg {
     filter: brightness(40%);
+    height: 90vh;
+}
+
+i {
+    font-size: 25px;
 }
