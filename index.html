@@ -17,7 +17,7 @@
 
     <!-- header start  -->
     <header>
-        <nav class="navbar navbar-expand-lg p-3">
+        <nav class="navbar navbar-expand-lg p-2  fixed-top bg-light">
             <div class="container d-flex justify-content-around">
                 <a class="navbar-brand" href="#">
                     <h2 class="text-dark">RealTech</h2>
@@ -59,7 +59,7 @@
     <!--///////////////////// main section  ////////////////////////-->
     <main class="container">
         <!-- carousel imag section start  -->
-        <section class="container mt-1 mb-5">
+        <section class="container mt-1 my-5 pt-5">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -73,7 +73,7 @@
 
                     <!-- /////////single carousel items ////// -->
                     <div class="carousel-item active">
-                        <img src="images/cover/cover-1.png" class="d-block w-100 img-fluid carouselimg" alt="...">
+                        <img src="images/cover/cover-1.png" class="d-block w-100 img-fluid carouselimg " alt="...">
                         <div class="carousel-caption d-md-block mb-2">
                             <h1 class="display-6 "><strong>Get Started Digital
                                     Learning</strong>
@@ -248,8 +248,8 @@
         <!-- popuplar course section end -->
 
         <!--///////// join section start/////////////// -->
-        <section class="bg-primary p-5 text-white rounded">
-            <div class="d-flex align-items-center">
+        <section class="py-5">
+            <div class="d-flex align-items-center bg-primary p-5 text-white rounded">
                 <div>
                     <h1>Ready to join?</h1>
                     <p class="w-75">It is a long established fact that a reader will be distracted by the
@@ -264,6 +264,128 @@
         </section>
         <!--///////// join section end /////////////// -->
 
+        <!--////////// F&Q section start//////////////  -->
+        <section>
+            <div class=" d-flex flex-column align-items-center">
+
+                <div class="course-title text-center py-4 ">
+                    <h1 class="mb-2"><strong>Frequently Asked Questions</strong></h1>
+                    <p>Expert-led courses for developers & IT professionals. Free 10-day trial - Start
+                        today!
+                        Learn web
+                        development
+                    </p>
+                </div>
+
+                <div class="w-75">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+
+                        <!-- single accordian 1 -->
+                        <div class="accordion-item mb-3 p-2">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    What are the differences between flexbox & grid?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    Grid is made for two-dimensional layout while Flexbox is for one. This means
+                                    Flexbox can work on either row or columns at a time, but Grids can work on both.
+                                    Flexbox, gives you more flexibility while <code>
+                                        working on either element
+                                    </code> (row or
+                                    column)
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- single accordian 2 -->
+                        <div class="accordion-item mb-3 p-2">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    What are the differences between Bootstrap & Tailwind?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                    Bootstrap comes with a set of pre-styled responsive, mobile-first components that
+                                    possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a
+                                    neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow
+                                    the generic pattern that makes them look identical.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- single accordian 3 -->
+                        <div class="accordion-item mb-3 p-2">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    What is the css box model ?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse "
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    In CSS, the term "box model" is used when talking about design and layout.
+
+                                    The CSS box model is essentially a box that wraps around every HTML element. It
+                                    consists of: margins, borders, padding, and the actual content. The image below
+                                    illustrates the box model:
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- single accordian 4 -->
+                        <div class="accordion-item mb-3 p-2">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseFour">
+                                    What is the semantic Tag?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse "
+                                aria-labelledby="panelsStayOpen-headingFour">
+                                <div class="accordion-body">
+                                    The HTML semantics refers to the tags that provide meaning to an HTML page rather
+                                    than just presentation. It makes HTML more comprehensible by better defining the
+                                    different sections and layout of web pages.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--////////// F&Q section end//////////////  -->
+
+
+        <!--//////////// trusted company section end //////////  -->
+        <section class="my-4 py-3">
+            <div class="course-title text-center py-4 ">
+                <h1 class="mb-2"><strong>Trusted by over 500+ companies</strong></h1>
+                <p>Expert-led courses for developers & IT professionals. Free 10-day trial - Start
+                    today!
+                    Learn web
+                    development
+                </p>
+            </div>
+
+            <div class="logosofCom">
+
+            </div>
+        </section>
+        <!--//////////// trusted company section start  //////////-->
 
     </main>
 
